@@ -1,14 +1,14 @@
 # Portfolio_Lab_Software
 O objetivo é desenvolver um website de portfólio profissional, que apresente a nossa trajetória, habilidades, projetos e formas de contato de maneira moderna e acessível.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-# Dependencias 
+## Dependencias 
 
-# Flameworks e Bibliotecas
+## Flameworks e Bibliotecas
 
-# Estrutura
+## Estrutura
 
-# Instruções de instalações e execução
+## Instruções de instalações e execução
 
-# Link de Acesso
+## Link de Acesso
