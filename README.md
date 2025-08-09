@@ -15,15 +15,14 @@ O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **
 - **react** e **react-dom** → Núcleo do React
 - **typescript** → Tipagem para JavaScript
 - **tailwindcss**, **postcss** e **autoprefixer** → Estilização
-- **framer-motion** *(opcional)* → Animações fluidas
-- **react-icons** *(opcional)* → Ícones prontos para uso
+- **react-icons** → Ícones prontos para uso
 
 
 ## 🛠 Frameworks e Bibliotecas
 - **Tailwind CSS** para personalização de design e responsividade
 - **Framer Motion** para animações de entrada e transição
 - **React Icons** para ícones de redes sociais e tecnologias
-- **EmailJS** *(opcional)* para formulário de contato funcional sem backend
+- **EmailJS** para formulário de contato funcional sem backend
 
 ## 📂 Estrutura do Projeto
 Segue a parte refeita do README, já formatada corretamente e mais organizada para manter um padrão profissional:
