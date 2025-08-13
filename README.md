@@ -3,7 +3,6 @@
 O objetivo deste projeto é desenvolver um **website de portfólio profissional** para apresentar a trajetória, habilidades, projetos e formas de contato de maneira **moderna, responsiva e acessível**.  
 O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **preto** e **branco**, transmitindo **sofisticação e personalidade**.
 
----
 
 ## 🚀 Tecnologias Utilizadas
 - **[React](https://react.dev/)** → Biblioteca JavaScript para construção de interfaces
@@ -11,33 +10,26 @@ O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **
 - **[TypeScript](https://www.typescriptlang.org/)** → Superset do JavaScript com tipagem estática
 - **[Tailwind CSS](https://tailwindcss.com/)** → Framework de estilização com classes utilitárias
 
----
 
 ## 📦 Dependências
 - **react** e **react-dom** → Núcleo do React
 - **typescript** → Tipagem para JavaScript
 - **tailwindcss**, **postcss** e **autoprefixer** → Estilização
-- **framer-motion** *(opcional)* → Animações fluidas
-- **react-icons** *(opcional)* → Ícones prontos para uso
+- **react-icons** → Ícones prontos para uso
 
----
 
 ## 🛠 Frameworks e Bibliotecas
 - **Tailwind CSS** para personalização de design e responsividade
 - **Framer Motion** para animações de entrada e transição
 - **React Icons** para ícones de redes sociais e tecnologias
-- **EmailJS** *(opcional)* para formulário de contato funcional sem backend
-
----
+- **EmailJS** para formulário de contato funcional sem backend
 
 ## 📂 Estrutura do Projeto
 Segue a parte refeita do README, já formatada corretamente e mais organizada para manter um padrão profissional:
 
----
-
-```markdown
+markdown
 ## 📂 Estrutura do Projeto
-```
+
 ````
 src/
 ├─ assets/        → imagens, ícones e arquivos estáticos
@@ -49,8 +41,6 @@ src/
 └─ index.css      → configuração do Tailwind CSS
 
 ````
-
----
 
 ## 🖥 Instruções de Instalação e Execução
 
