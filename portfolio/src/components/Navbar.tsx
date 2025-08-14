@@ -1,25 +1,51 @@
-import React from "react";
-import { Link } from "react-router-dom"; 
+import type { FC } from "react";
+import type { JSX } from "react";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+const navStyles: React.CSSProperties = {
+  backgroundColor: "#2d3748",
+  padding: "8px",
+  marginTop: "0",
+  width: "100%",
+};
+
+const containerStyles: React.CSSProperties = {
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  maxWidth: "1200px",
+  margin: "0 auto",
+};
+
+const linkStyles: React.CSSProperties = {
+  fontSize: "1.125rem",
+  fontWeight: "bold",
+  color: "white",
+  textDecoration: "none",
+  marginRight: "1.5rem",
+};
+
+const Navbar: FC = (): JSX.Element => {
   return (
-    <nav className="bg-gray-800 p-2 mt-0 w-full">
-      <div className="container mx-auto flex items-center justify-between">
-        <Link to="/">
-          <div className="text-lg font-bold text-white">Jonathan Sena</div>
+    <nav style={navStyles}>
+      <div style={containerStyles}>
+        <Link to="/" style={{ ...linkStyles, marginRight: 0 }}>
+          Jonathan Sena
         </Link>
-        <div className="flex items-center">
-          <Link to="/about">
-            <div className="text-lg font-bold text-white mr-6">About</div>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <Link to="/about" style={linkStyles}>
+            About
           </Link>
-          <Link to="/projects">
-            <div className="text-lg font-bold text-white mr-6">Projects</div>
+          <Link to="/projects" style={linkStyles}>
+            Projects
           </Link>
-          <Link to="/contact">
-            <div className="text-lg font-bold text-white">Contact</div>
+          <Link to="/contact" style={{ ...linkStyles, marginRight: 0 }}>
+            Contact
           </Link>
         </div>
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
