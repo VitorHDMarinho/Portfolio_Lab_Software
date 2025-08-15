@@ -8,19 +8,14 @@ O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **
 - **[React](https://react.dev/)** → Biblioteca JavaScript para construção de interfaces
 - **[Vite](https://vitejs.dev/)** → Ferramenta de build rápida e moderna
 - **[TypeScript](https://www.typescriptlang.org/)** → Superset do JavaScript com tipagem estática
-- **[Tailwind CSS](https://tailwindcss.com/)** → Framework de estilização com classes utilitárias
-
 
 ## 📦 Dependências
 - **react** e **react-dom** → Núcleo do React
 - **typescript** → Tipagem para JavaScript
-- **tailwindcss**, **postcss** e **autoprefixer** → Estilização
 - **react-icons** → Ícones prontos para uso
-
+- **react-router-dom** → Implementação de roteamento em aplicações web
 
 ## 🛠 Frameworks e Bibliotecas
-- **Tailwind CSS** para personalização de design e responsividade
-- **Framer Motion** para animações de entrada e transição
 - **React Icons** para ícones de redes sociais e tecnologias
 - **EmailJS** para formulário de contato funcional sem backend
 
@@ -53,7 +48,8 @@ cd Portfolio_Lab_Software
 2. **Instalar as dependências**
 
 ```bash
-npm install
+npm install react-router-dom
+npm install react-icons
 ```
 
 3. **Executar o projeto**
