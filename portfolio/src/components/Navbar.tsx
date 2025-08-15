@@ -6,6 +6,7 @@ import perfilImg from "../images/perfil.png"; // importa a imagem
 
 
 
+
 const Navbar: FC = (): JSX.Element => {
   return (
     <nav className="navStyles">
