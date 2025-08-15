@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import type { JSX } from "react";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css"
-import perfilImg from "../images/perfil.png"; // importa a imagem
+import "../assets/CSS/Navbar.css"
+import perfilImg from "../assets/perfil.png"; // importa a imagem
 
 
 

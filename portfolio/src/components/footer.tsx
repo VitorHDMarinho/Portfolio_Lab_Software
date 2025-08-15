@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import type { JSX } from "react";
-import "../styles/Footer.css";
+import "../assets/CSS/Footer.css";
 
 
 const Footer : FC = (): JSX.Element => {
