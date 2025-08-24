@@ -18,7 +18,10 @@
 .home-h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
-    color: white;
+    background: linear-gradient(90deg, #ffffff 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
