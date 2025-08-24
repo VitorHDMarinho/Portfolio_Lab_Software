@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import "../assets/CSS/home.css";
+import astronautaImg from "../assets/astronauta.png";
 
 export default function Home() {
-  const paragraphText = `Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`;
-  const Name = 'Your Name Here';
+  const paragraphText = `Sou apaixonado por tecnologia e atualmente trabalho na área de dados. Também curto muito desenvolvimento e estou sempre explorando novas ideias e projetos. Seja bem-vindo ao meu portfólio! `;
+  const Name = 'Vitor Hugo Dutra';
   const [lines, setLines] = useState<string[][]>([]);
 
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function Home() {
 
   return (
     <div className="home">
+      <div className="Texts">
       <h1 className="home-h1">{Name}</h1>
       <section className="home-description">
         <p>
@@ -48,5 +50,11 @@ export default function Home() {
         <button className="home-button">Continuar</button>
       </section>
     </div>
+    <div className="Image">
+          <img className="astro-image" src={astronautaImg} alt="Imgem de astronauta" />
+    </div>
+    TechnologyCard
+    </div>
+    
   );
 }

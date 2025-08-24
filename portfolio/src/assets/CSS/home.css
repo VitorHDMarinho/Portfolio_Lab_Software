@@ -3,6 +3,9 @@
 .home {
     margin-top: 10vh;
     margin-left: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
 }
 
 /* Títulos e parágrafos */
@@ -25,6 +28,7 @@
     width: 0;
     animation: typingH1 2s steps(20, end) forwards;
     position: relative;
+    animation-delay: 0.5s;
 }
 .home-h1::after {
     content: '';
@@ -65,8 +69,8 @@
     animation: 
         typing 2s steps(40, end) forwards,
         hideCursor 0.5s forwards;
-    animation-delay: calc(2s + var(--i) * 2.1s),
-                     calc(4s + var(--i) * 2.1s);
+    animation-delay: calc(1s + var(--i) * 2.1s),
+                     calc(2s + var(--i) * 2.1s);
 }
 
 /* Última linha com cursor piscando */
@@ -120,7 +124,7 @@
     /* Slide-in */
     transform: translateX(-100%);
     opacity: 0;
-    animation: slideInLeft 1s ease-out forwards;
+    animation: slideInRight 1s ease-out forwards;
     animation-delay: 7s; /* aparece depois do H1 e parágrafo */
 }
 
@@ -137,4 +141,35 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+
+.astro-image{
+    height: 60vh;
+    width: 70vh;
+
+    /* Slide-in */
+    transform: translateX(100%);
+    opacity: 0;
+    animation: slideInRight 1s ease-out forwards, sobe-desce 3s infinite ease-in-out;
+    animation-delay: 7s; /* aparece depois do H1 e parágrafo */
+}
+
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes sobe-desce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(50px);}
+    100% {transform: translateY(0);}
 }

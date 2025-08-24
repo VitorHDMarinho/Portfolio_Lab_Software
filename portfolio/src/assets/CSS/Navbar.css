@@ -4,7 +4,24 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  
+  transform: translateX(-100%);
+  animation: slideInRight 1s ease-out forwards;
 }
+
+@keyframes slideInRight{
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
 
 .linksNavStyle {
   background-color: #1F0B38;
@@ -29,12 +46,21 @@
   padding: 0px 10vw;
 }
 
+
 .linkStyles {
   font-size: 1.125rem;
   font-weight: bold;
   color: gray;
   text-decoration: none;
   margin-right: 1.5rem;
+  transition:  transform 0.5s, color 0.5s;
+}
+
+.linkStyles:hover{
+  color: white;
+  text-decoration:none;
+  border-bottom: 2px solid white; /* cria um underline mais grosso */
+  transform: scale(1.03);
 }
 
 
@@ -44,5 +70,4 @@
     width: 60px;
     margin-left: 8vh;
     border-radius: 60px;
-
 }

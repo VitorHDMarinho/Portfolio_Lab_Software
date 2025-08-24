@@ -1,0 +1,101 @@
+.projects{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cards-tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.cards-tecnologias h2{
+    color: #F5F5F5;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.technologies-grid{
+    display: flex;
+    margin-top: 4vh;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cards-projects{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cards-projects h2{
+    color: #F5F5F5;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+
+/* CARDS */
+.project-card {
+  min-width: 220px;   
+  max-width: 240px;   
+  flex-shrink: 0;
+  background: #161b22;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f0f6fc;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(56, 139, 253, 0.4);
+}
+
+/* Título */
+.project-title {
+  font-size: 1rem; 
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #58a6ff;
+  word-break: break-word; 
+  line-height: 1.3;
+}
+
+/* Descrição */
+.project-description {
+  font-size: 0.85rem;
+  color: #c9d1d9;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+  text-align: left;
+}
+
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(56, 139, 253, 0.4);
+}
+
+.cards-git{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}

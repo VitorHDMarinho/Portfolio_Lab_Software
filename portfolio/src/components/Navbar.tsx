@@ -21,6 +21,9 @@ const Navbar: FC = (): JSX.Element => {
           <Link to="/projects" className="linkStyles">
             Projects
           </Link>
+          <Link to="/experiences" className="linkStyles">
+              Experiences
+          </Link>
           <Link to="/contact" className="linkStyles">
             Contact
           </Link>
