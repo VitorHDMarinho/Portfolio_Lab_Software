@@ -55,8 +55,10 @@
 .home-description p {
     font-size: 1.2rem;
     margin-top: 2rem;
-    max-width: 50ch;
+    max-width: 60ch;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Cada linha do parágrafo */
