@@ -1,13 +1,25 @@
-# 📂 Portfolio_Lab_Software
+# 🌟 Meu Projeto de Portfólio  
 
-O objetivo deste projeto é desenvolver um **website de portfólio profissional** para apresentar a trajetória, habilidades, projetos e formas de contato de maneira **moderna, responsiva e acessível**.  
-O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **preto** e **branco**, transmitindo **sofisticação e personalidade**.
+Bem-vindo ao meu projeto! Esse é um dos trabalhos que desenvolvi para demonstrar minhas habilidades em desenvolvimento web.  
+O projeto foi construído com foco em performance, organização e boas práticas.  
 
+---
 
-## 🚀 Tecnologias Utilizadas
-- **[React](https://react.dev/)** → Biblioteca JavaScript para construção de interfaces
-- **[Vite](https://vitejs.dev/)** → Ferramenta de build rápida e moderna
-- **[TypeScript](https://www.typescriptlang.org/)** → Superset do JavaScript com tipagem estática
+## 🔗 Link do Projeto  
+👉 [Clique aqui para acessar o projeto](https://portfolio-lab-software-eta.vercel.app/contact)  
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+
+- ⚛️ **React** → Biblioteca para construção da interface  
+- 🖼️ **HTML5** → Estruturação da aplicação  
+- 🎨 **CSS3** → Estilização e responsividade  
+- ⚡ **Vite** → Ferramenta de build rápida e moderna  
+- 🌐 **Node.js** → Ambiente para execução e suporte no back-end  
+- ☁️ **Vercel** → Hospedagem e deploy do projeto  
+
+---
 
 ## 📦 Dependências
 - **react** e **react-dom** → Núcleo do React
@@ -19,10 +31,6 @@ O design será inspirado em um **tema escuro**, utilizando as cores **roxo**, **
 - **React Icons** para ícones de redes sociais e tecnologias
 - **EmailJS** para formulário de contato funcional sem backend
 
-## 📂 Estrutura do Projeto
-Segue a parte refeita do README, já formatada corretamente e mais organizada para manter um padrão profissional:
-
-markdown
 ## 📂 Estrutura do Projeto
 
 ````
@@ -64,9 +72,5 @@ npm run dev
 http://localhost:5173
 ```
 ## 📂 Protótipo Figma
-![Home](./Figma/Home.png)
-![About](./Figma/About.png)
-![Contacts](./Figma/Contacts.jpg)
-![Experience](./Figma/Experience.png)
-![Projects](./Figma/Projects.png)
+![Portifolio](
 
