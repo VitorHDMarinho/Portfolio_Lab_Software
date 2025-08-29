@@ -72,5 +72,5 @@ npm run dev
 http://localhost:5173
 ```
 ## 📂 Protótipo Figma
-![Portifolio](.Figma/gif.gif)
+![Portifolio](./Figma/gif.gif)
 
